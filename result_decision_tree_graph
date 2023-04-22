@@ -1,0 +1,19 @@
+digraph {
+	1992496289152 [label="feature= load
+IG= 0.600"]
+	1992496879168 [label="feature= room_availability
+IG= 1.000"]
+	1992290776928 [label="pred= True
+#train_data = 2"]
+	1992496879168 -> 1992290776928 [label=N]
+	1992290778176 [label="pred= False
+#train_data = 2"]
+	1992496879168 -> 1992290778176 [label=Y]
+	1992496289152 -> 1992496879168 [label=Adequate]
+	1992290376960 [label="pred= False
+#train_data = 3"]
+	1992496289152 -> 1992290376960 [label=Huge]
+	1992290777216 [label="pred= True
+#train_data = 3"]
+	1992496289152 -> 1992290777216 [label=Small]
+}

@@ -1,0 +1,25 @@
+digraph {
+	2639227512432 [label="feature= Outlook
+IG= 0.247"]
+	2639156651680 [label="pred= Yes
+#train_data = 4"]
+	2639227512432 -> 2639156651680 [label=Overcast]
+	2639156651632 [label="feature= Wind
+IG= 0.971"]
+	2639156650864 [label="pred= No
+#train_data = 2"]
+	2639156651632 -> 2639156650864 [label=Strong]
+	2639156650912 [label="pred= Yes
+#train_data = 3"]
+	2639156651632 -> 2639156650912 [label=Weak]
+	2639227512432 -> 2639156651632 [label=Rain]
+	2639156652304 [label="feature= Humidity
+IG= 0.971"]
+	2639156651536 [label="pred= No
+#train_data = 3"]
+	2639156652304 -> 2639156651536 [label=High]
+	2639156651968 [label="pred= Yes
+#train_data = 2"]
+	2639156652304 -> 2639156651968 [label=Normal]
+	2639227512432 -> 2639156652304 [label=Sunny]
+}
